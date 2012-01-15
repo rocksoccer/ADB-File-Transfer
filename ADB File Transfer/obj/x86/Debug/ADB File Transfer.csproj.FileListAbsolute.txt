@@ -1,0 +1,13 @@
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\bin\Debug\ADB File Transfer.exe
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\bin\Debug\ADB File Transfer.pdb
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB_File_Transfer.Form1.resources
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB_File_Transfer.Properties.Resources.resources
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB File Transfer.exe
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB File Transfer.pdb
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\bin\Debug\ADB File Transfer.exe.manifest
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\bin\Debug\ADB File Transfer.application
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB File Transfer.exe.manifest
+d:\rocksoccer\documents\visual studio 2010\Projects\ADB File Transfer\ADB File Transfer\obj\x86\Debug\ADB File Transfer.application

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="ADB File Transfer.exe" version="1.0.0.0" publicKeyToken="cbd132045bd6c82a" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ADB File Transfer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="ADB File Transfer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ADB File Transfer.exe" size="10240">
+      <assemblyIdentity name="ADB File Transfer" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Z7nJPUiqtK3Z9voYR5F9NRLdglw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=AnnaSoccer-PC\Administrator" issuerKeyHash="675f782c66cabf406f381954f12a58ef3bb96044" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>OiIfW8gHkouGbRgP+oexrjSifC4=</DigestValue></Reference></SignedInfo><SignatureValue>U6WqdjOY2h+QmI02Np4pnEphG8HxPGYo2o3qPXTXHpZrk4FVdOKWIw4hFXkgGnP41YzOSxFYmsNgAfyiXuPqmRDdSthX9oSaQXV35Q49kMgiXlTWWmF9Ph+rSB6CaTvoaVx36sQvPQyv1/QqDYascKgqxZu4bHSjiXa81PaUU/0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>i+TNpYP3Tg/ZbDR1siv3fHIZBAyzXsZjn5EiQivAPdk0JexC1MnyIj10BnGYU2rC3f6oEbqqfrqnNncbZMq993Pm4Y+Os/K+YfPR6MfNgo2AMMB9Gwmd8GnWs5p3m05apejH/DS+sNlvsqeJ5PgopZul3yNP1EnKxQ0uU7aviFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="2e7ca234aeb187fa0f186d868b9207c85b1f223a" Description="" Url=""><as:assemblyIdentity name="ADB File Transfer.exe" version="1.0.0.0" publicKeyToken="cbd132045bd6c82a" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AnnaSoccer-PC\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>dVzWPVi1b+tcydNFvbCMKJCeXqM=</DigestValue></Reference></SignedInfo><SignatureValue>FNCsnxmCUGdz6YPrEdpHaC9py3Ckb+nSLnVwdEjENamDDs+Xim0sMvwc50DRsezFfnchbM9UafaHftOUuGQTG3MQD4dPEviBkvssLj9s59A2fiszFfFjPugsWcM6f41rNxPve7gVkHJDDYAC6vZyWN4OeWePOlcTJnrm4T116hc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>i+TNpYP3Tg/ZbDR1siv3fHIZBAyzXsZjn5EiQivAPdk0JexC1MnyIj10BnGYU2rC3f6oEbqqfrqnNncbZMq993Pm4Y+Os/K+YfPR6MfNgo2AMMB9Gwmd8GnWs5p3m05apejH/DS+sNlvsqeJ5PgopZul3yNP1EnKxQ0uU7aviFM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICBTCCAW6gAwIBAgIQbi5qbo7Sd5JNGIhQIwA9bjANBgkqhkiG9w0BAQUFADBBMT8wPQYDVQQDHjYAQQBuAG4AYQBTAG8AYwBjAGUAcgAtAFAAQwBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwHhcNMTIwMTE0MDI1MTAyWhcNMTMwMTEzMDg1MTAyWjBBMT8wPQYDVQQDHjYAQQBuAG4AYQBTAG8AYwBjAGUAcgAtAFAAQwBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAIvkzaWD904P2Ww0dbIr93xyGQQMs17GY5+RIkIrwD3ZNCXsQtTJ8iI9dAZxmFNqwt3+qBG6qn66pzZ3G2TKvfdz5uGPjrPyvmHz0ejHzYKNgDDAfRsJnfBp1rOad5tOWqXox/w0vrDZb7KnieT4KKWbpd8jT9RJysUNLlO2r4hTAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEARVGg2zRi9f3/ZKpuEpJo7qiayhTrFX+ZMl00c1B/yZqU0wBAIAS3iQCLZfkMRYfZuZD3BTOpnoNF/iAf9ktPvrujqmV7s6l/p+3Xem56dFbxkUC0eys05Zp3WxaTjorUgTdpKnUFFK68gGTGYIypFirMX5l3OXgnt8kEAMZ+6so=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
