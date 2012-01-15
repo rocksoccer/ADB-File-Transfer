@@ -1,0 +1,1 @@
+This project mainly to solve the problem of USB mass storage drivers on some computers. Sometimes, the fat driver can cause blue screen on some computers. By using adb (Android Debug Bridge), both the file transfer speed and stability can be kept.
